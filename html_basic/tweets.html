@@ -7,17 +7,43 @@
     <title>My Tweets</title>
 </head>
 <body>
-    <!-- Heading -->
-    <h1>My Embedded Tweet</h1>
 
-    <!-- Embedded Tweet -->
-    <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">This is an example tweet from <a href="https://twitter.com/TwitterDev">@TwitterDev</a>! Just an example tweet to embed into HTML.</p>
-        &mdash; TwitterDev (@TwitterDev) <a href="https://twitter.com/TwitterDev/status/1293593516040267776?ref_src=twsrc%5Etfw">August 11, 2020</a>
-    </blockquote> 
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <!-- Header with Navigation Links -->
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
 
-    <!-- Link back to the homepage -->
-    <p><a href="index.html">Go back to the homepage</a></p>
+    <!-- Main Content Area -->
+    <main>
+        <!-- Article containing embedded tweet -->
+        <article>
+            <h1>My Embedded Tweet</h1>
+            
+            <!-- Embedded Tweet -->
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">This is an example tweet from <a href="https://twitter.com/TwitterDev">@TwitterDev</a>! Just an example tweet to embed into HTML.</p>
+                &mdash; TwitterDev (@TwitterDev) <a href="https://twitter.com/TwitterDev/status/1293593516040267776?ref_src=twsrc%5Etfw">August 11, 2020</a>
+            </blockquote> 
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+            <!-- Link back to the homepage -->
+            <p><a href="index.html">Go back to the homepage</a></p>
+        </article>
+
+        <!-- Aside for comment placeholder -->
+        <aside>
+            <p>Placeholder to add comment thread later</p>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made by YOUR NAME - <a href="https://example.com" target="_blank">here</a></p>
+    </footer>
+
 </body>
 </html>
+
