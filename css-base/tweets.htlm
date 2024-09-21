@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechCon 2024 - Schedule</title>
+  <link href="base.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>TechCon 2024 - Schedule</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>Schedule Overview</h2>
+      <p>Details about TechCon 2024 events and sessions...</p>
+    </article>
+
+    <aside>
+      <p>Placeholder to add comment thread later</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 TechCon - <a href="https://www.techcon.com" target="_blank">here</a></p>
+  </footer>
+
+</body>
+</html>
