@@ -1,36 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hope Molebaloa - Personal Portfolio</title>
-    <link href="base.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
-</head>
-<body class="works_on_smartphone">
-    <header>
-        <ul>
-            <li class="logo">&spades;</li> <!-- Adding a logo using a unicode character -->
-            <li><a href="#introduction">Introduction</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </header>
+/* base.css */
+html {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
 
-    <main>
-        <article>
-            <h2>Introduction</h2>
-            <p>Hello, I’m Hope Molebaloa, a 25-year-old aspiring web developer...</p>
-        </article>
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
-        <aside>
-            <p>Placeholder to add comment thread later</p>
-        </aside>
-    </main>
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
 
-    <footer>
-        <p>&copy; 2024 Hope Molebaloa - <a href="https://www.hopemolebaloa.com" target="_blank">here</a></p>
-    </footer>
-</body>
-</html>
+p {
+    color: #666;
+}
+
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
