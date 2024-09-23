@@ -1,28 +1,83 @@
-/* Basic Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Typography */
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-  }
-  
-  /* Layout */
-  header, nav, main, footer {
-    padding: 20px;
-    margin-bottom: 10px;
-  }
-  
-  /* Links */
-  a {
-    color: blue;
-    text-decoration: none;
-  }
- a:hover {
-    text-decoration: underline;
-  }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Updated Index</title>
+</head>
+<body>
+
+    <!-- Header with Navigation Links -->
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
+
+    <!-- Main Section with Article and Aside -->
+    <main>
+        <article>
+            <h1>Welcome to My Webpage</h1>
+            <h2>About This Page</h2>
+            <h3>Subsection Title</h3>
+
+            <!-- Paragraphs -->
+            <p>This is the first paragraph introducing the content of this webpage.</p>
+            <p>Here is another paragraph that provides more details about the website's purpose.</p>
+            <p>The third paragraph can talk about upcoming features or recent updates.</p>
+            <p>Finally, this paragraph wraps things up with a closing remark.</p>
+
+            <!-- Clickable Image -->
+            <a href="https://www.alxafrica.com/" target="_blank">
+                <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo">
+            </a>
+
+            <!-- Table of Learners -->
+            <h2>Learners Information</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Country</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>25</td>
+                        <td>USA</td>
+                    </tr>
+                    <tr>
+                        <td>Emily</td>
+                        <td>28</td>
+                        <td>Canada</td>
+                    </tr>
+                    <tr>
+                        <td>Michael</td>
+                        <td>32</td>
+                        <td>Australia</td>
+                    </tr>
+                    <tr>
+                        <td>Sophia</td>
+                        <td>21</td>
+                        <td>UK</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </article>
+
+        <aside>
+            <p>Placeholder to add comment thread later</p>
+        </aside>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Made by YOUR NAME - <a href="YOUR LINK" target="_blank">here</a></p>
+    </footer>
+
+</body>
+</html>
