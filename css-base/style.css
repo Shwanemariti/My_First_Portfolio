@@ -1,100 +1,69 @@
-/* Styling for the entire page */
+ styles.css */
+
+/* Basic styles for body and main */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f5;
-    color: #333;
+    display: flex;
+    flex-direction: column;
     margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Dark text color */
 }
 
-/* Header styling */
 header {
-    background-color: #4CAF50;
+    background: #4CAF50; /* Header background color */
     color: white;
     padding: 20px;
     text-align: center;
 }
 
-/* Logo styling */
 .logo {
-    font-size: 30px;
-    margin-right: 20px;
+    font-size: 2em; /* Make logo larger */
     display: inline-block;
+    margin-right: 10px; /* Spacing after logo */
 }
 
-/* Navigation menu styling */
 nav ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
-    margin: 0;
-    text-align: center;
+    margin: 0; /* Remove default margin */
 }
 
 nav ul li {
-    display: inline-block;
+    display: inline;
     margin: 0 15px;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Main content styling */
-main {
-    display: flex;
-    flex-direction: row;
+section {
     padding: 20px;
+    margin: 20px 0; /* Spacing between sections */
+    background: white; /* Section background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
-/* Article styling */
-article {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-right: 20px;
-    flex: 2;
+h2 {
+    color: #4CAF50; /* Heading color */
 }
 
-/* Aside (sidebar) styling */
-aside {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    flex: 1;
+.project {
+    border: 1px solid #ddd; /* Border around project */
+    border-radius: 5px; /* Rounded corners for projects */
+    padding: 10px;
+    margin-bottom: 10px; /* Spacing between projects */
 }
 
-/* Footer styling */
+a {
+    color: #4CAF50; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
 footer {
-    background-color: #4CAF50;
-    color: white;
     text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    padding: 10px;
+    background: #f1f1f1; /* Footer background color */
 }
-
-/* Custom styling for links in the footer */
-footer a {
-    color: #f9f9f9;
-    text-decoration: underline;
-}
-
-/* Article specific styling */
-article h2 {
-    color: #4CAF50;
-}
-
-article p {
-    line-height: 1.6;
-}
-
-  
