@@ -1,28 +1,75 @@
-/* base.css */
-html {
-    font-size: 16px;
-    font-family: Arial, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Viewport meta tag -->
+    <title>Your Name - Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body class="works_on_smartphone">
+    <header>
+        <h1>Your Name</h1>
+         <ul>
+        <li class="logo">&#9733;</li> <!-- Star character as logo -->
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+        <p>Your brief tagline or professional statement goes here.</p>
+    </header>
 
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-h1, h2, h3, h4, h5, h6 {
-    color: #333;
-}
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Describe yourself here. Include your background, interests, and what you are passionate about.</p>
+    </section>
 
-p {
-    color: #666;
-}
+    <section id="projects">
+        <h2>Projects</h2>
+        <article class="project">
+            <h3>Project Title 1</h3>
+            <p>Description of your project goes here. Briefly explain what it does and technologies used.</p>
+            <a href="https://link-to-your-project.com" target="_blank">View Project</a>
+        </article>
+        <article class="project">
+            <h3>Project Title 2</h3>
+            <p>Description of your project goes here. Briefly explain what it does and technologies used.</p>
+            <a href="https://link-to-your-project.com" target="_blank">View Project</a>
+        </article>
+    </section>
 
-a {
-    color: #1a73e8;
-    text-decoration: none;
-}
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Write a few paragraphs or create a list about your background, skills, and hobbies.</p>
+        <ul>
+            <li>Skill 1</li>
+            <li>Skill 2</li>
+            <li>Hobby 1</li>
+            <li>Hobby 2</li>
+        </ul>
+    </section>
 
-a:hover {
-    text-decoration: underline;
-}
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me:</p>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>
+            LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank">Your LinkedIn Profile</a><br>
+            GitHub: <a href="https://github.com/your-github" target="_blank">Your GitHub Profile</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+</body>
+</html>
